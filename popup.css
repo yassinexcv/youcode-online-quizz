@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "ZOOBA";
+    src: url('fonts/ZOOBA.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url('fonts/Poppins-SemiBold.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url('fonts/Poppins-Light.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url('fonts/Poppins-Medium.otf') format('opentype');
+  }
+
+@font-face {
+    font-family: "Moderat-Bold";
+    src: url('fonts/Moderat-Bold.ttf') format('truetype');
+  }
+
+  
+@font-face {
+    font-family: "Inter-Light";
+    src: url('fonts/Inter-Light.ttf') format('truetype');
+  }
+
+  a,* {
+      outline : none;
+}
+a:focus {
+    outline: 0; 
+   }
+
+a:active { color:none }
+
+
+
+.popup-wrapper{
+    width: 41rem;
+    height: 28rem;
+    background-color: #EF3026;    
+    color: white;
+}
+
+
+.popup-wrapper h1{
+  
+    color: white;
+    font-family: "ZOOBA";
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.popup-footer{
+    width: 41rem;
+    height: 3rem;
+    background-color: black;    
+    color: white;
+}
+
+.footer-infos{
+    display: flex;
+}
+
+.drink-support{
+    margin-left: auto;
+    display: flex;
+    margin-right: 8px;
+}
+
+.drink-support h6{
+    padding-top : 14px !important;
+    color: white;
+}
+
+.drink-support a{
+    font-size: 27px;
+    cursor: pointer;
+    color:black
+}
+
+.drink-support a:hover{
+   color:white
+}
+
+
+.footer-infos h6{
+    font-family: "Poppins-Light";
+    font-size: 13px;
+    margin: 0px;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    padding-top: 18px;
+}
+
+.footer-infos span{
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+}
+
+.footer-infos img {
+    width: 24px;
+    padding-top: 13px;
+    margin-left: 10px;
+}
+
+
+.logo-vr img{
+
+    width: 14rem;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+    border: 1.4px solid #FFFFFF;
+    border-radius: 8px;
+    width: 20rem;
+    height: 3.3rem;
+    margin-top: 2rem;
+    cursor:pointer;/* stylelint-disable-next-line rule */
+}
+
+.loading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.2rem;
+}
+.loading-rect{
+    width: 2.7rem;
+    height: 1.3rem;
+    background: #FFFFFF;
+}
+
+
+#para-annonce{
+    font-family: "Inter-Light";
+    font-size: 1.2rem;
+    color:white;
+}
+
+#wine{
+    padding-top: 0px !important;
+    margin-top: 5px;
+    width: 19px !important;
+    margin-right: 4px;
+}
