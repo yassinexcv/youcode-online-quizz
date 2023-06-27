@@ -45,12 +45,4 @@ https://www.youtube.com/watch?v=aL5hHdjRRd4
 2) Load unpacked 
 3) Refresh the browser
 
-```
-    
-## Screenshots
-
-![App Screenshot](https://i.imgur.com/2u4MR8Q.png)
-
-
-![Logo](https://i.imgur.com/HwNTwf6.png)
 
